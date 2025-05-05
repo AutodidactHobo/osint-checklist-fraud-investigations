@@ -1,0 +1,77 @@
+GOOGLE DORKING ONE SHEET – FRAUD, SKIPTRACING, FINANCIAL INVESTIGATIONS
+
+BASIC OPERATORS:
+site:         = restrict to a specific domain
+filetype:     = filter by document type (pdf, xls, docx)
+inurl:        = match words in URL
+intitle:      = match words in page title
+cache:        = view Google's cached version
+"quotes"      = exact match
+-             = exclude results
+OR            = boolean logic
+
+CORE INVESTIGATIVE DORKS:
+
+1. VENDOR / COMPANY VERIFICATION
+site:opencorporates.com "Acme Holdings"
+"About Us" "Acme LLC" site:acmellc.com
+inurl:about OR inurl:leadership "Acme Holdings"
+"Registered Agent" "John Doe" filetype:pdf
+
+2. INVOICE / PAYMENT / CONTRACT LEAKS
+"invoice to" OR "bill to" filetype:pdf "Acme LLC"
+"Statement of Work" filetype:docx "Acme Holdings"
+"accounts payable" "Vendor: Acme" site:.gov
+"payment history" intitle:"ledger" filetype:xls
+
+3. PERSON / SKIPTRACE TRAILS
+"John Doe" "cell" OR "email" OR "contact" -site:facebook.com
+"John A. Doe" site:linkedin.com/in
+"J. Doe" "address" filetype:csv
+"John Doe" site:peoplefinders.com OR site:spokeo.com
+
+4. PROPERTY / GIS / ASSESSOR CLUES
+"property tax" "John Doe" filetype:xls
+"deed of trust" "Doe" filetype:pdf
+site:gis.vermont.gov "John Doe"
+"utility bill" filetype:pdf "Jane Smith"
+
+5. SANCTIONS / POLITICAL INFLUENCE
+"Acme LLC" site:opensecrets.org
+"John Doe" site:fec.gov
+"Acme LLC" site:fara.gov
+"foreign principal" "agent of" "John Doe" filetype:pdf
+
+6. FAKE OR GHOST COMPANY DETECTION
+"site:*.wixsite.com" "Acme Holdings"
+"under construction" intitle:"Acme LLC"
+cache:acmellc.com
+"no longer accepting clients" "Acme"
+
+7. EMPLOYEE / ROSTER / EMAIL FORMAT
+"employee contact list" filetype:xls "Acme LLC"
+"internal directory" "Acme LLC" filetype:pdf
+"@acmellc.com" filetype:pdf OR filetype:xls
+"staff roster" site:acmellc.com filetype:doc
+
+8. HISTORICAL / DELETED PAGE RECON
+cache:acmellc.com
+archive.org/web/*/acmellc.com
+intitle:"page not found" site:acmellc.com
+"this page has moved" OR "redirecting"
+
+9. LEAKED INFO / CREDENTIAL CLUES
+"email: john@acmellc.com" site:pastebin.com
+"password" filetype:xls OR filetype:txt
+"login credentials" "acme" site:ghostbin.com
+"john.doe@acme.com" site:linkedin.com/in
+
+---
+- Use archive.org to bypass 404 errors and find deleted bios
+- Combine "site:" with "filetype:" for explosive results (e.g., site:.gov filetype:xls "vendor")
+- Dork for CRM exports: "client list" OR "vendor list" filetype:csv
+- Look for common doc misconfigs: "confidential" "do not distribute" filetype:pdf
+- Trace email patterns: "@company.com" OR "firstname.lastname@"
+- Use quotation variations for aliases: "J. Doe" OR "John A. Doe" OR "Jonathan Doe"
+- Timebox with Google tools: click “Tools” → Past year → Catch active scams
+- Dork other investigators: “SAR” OR “suspicious activity report” filetype:doc
