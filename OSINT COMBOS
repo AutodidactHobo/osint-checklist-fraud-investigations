@@ -1,0 +1,79 @@
+COMBINATIONS OF TOOLS FOR MAXIMUM INVESTIGATIVE IMPACT
+
+1. Shell Company + Domain Metadata Correlation
+Objective: Detect hidden control, fake entities, or ghost vendors.
+
+Tool Chain:
+OpenCorporates → to identify registered entities and directors
+WHOIS + SecurityTrails → to find domain registration email/IP and changes over time
+Hunter.io → to confirm internal email schema matches domain claims
+Wayback Machine → to compare the current website with prior versions
+
+Why it works: Real businesses evolve their web presence. Ghost vendors often have inconsistent or rapidly thrown-together websites, recently registered domains, and zero web history.
+
+2. Beneficial Ownership + Political Influence Discovery
+Objective: Spot hidden conflicts of interest or corruption exposure.
+
+Tool Chain:
+FinCEN BO Registry → to identify controlling parties
+OpenSecrets + FEC.gov → to check for political donations, PAC ties
+FARA.gov → to identify undeclared foreign lobbying
+LinkedIn → to validate employment history of owners or board members
+
+Why it works: Shell companies are often used to launder influence. If a vendor’s hidden owner is making campaign donations or lobbying, that's a compliance red flag.
+
+3. Litigation Mapping via Entity/Executive Targeting
+Objective: Reveal undisclosed legal risk, fraud allegations, or judgment history.
+
+Tool Chain:
+OpenCorporates → gather all affiliated entities
+PACER + CourtListener → search across entities and executives
+Trellis Law or local court sites → for state-level claims
+Google Dork → "Vendor Name" + "lawsuit" OR "judgment" OR "settlement"
+
+Why it works: Fraudsters often “burn” one LLC and spin up another. Tracing shared directors via court records uncovers their litigation trail.
+
+4. Procurement / Contracting Risk Mapping
+Objective: Detect favoritism, bid-rigging, or political contracts.
+
+Tool Chain:
+SAM.gov + USAspending.gov → to find federal contract awards
+OpenSecrets → to match donations with contract award periods
+OpenCorporates + Wayback Machine → to see if vendor was formed shortly before contract
+CourtListener → to check for award disputes
+
+Why it works: Shell vendors created shortly before awards, especially with donation trails, signal procurement fraud risk.
+
+5. Person-to-Entity Linkage (Conflict or Collusion Detection)
+Objective: Prove connection between employee and vendor (e.g., kickback scheme)
+
+Tool Chain:
+Pipl or That’sThem → to match addresses/emails/phones
+LinkedIn → to identify dual roles, prior affiliations
+County GIS Records → to trace shared ownership of property
+OpenCorporates → to find if an employee or relative owns a vendor
+
+Why it works: Fraud frequently hides in personal associations. These chains expose shared fingerprints that violate procurement policy.
+
+🛠6. Sanctions/Evasion Pattern Mapping
+Objective: Discover if a vendor is laundering sanctioned entities through intermediaries.
+
+Tool Chain:
+OFAC List + UN Sanctions → for known entity names
+WHOIS → for domain registration in suspect regions
+OpenCorporates → to reveal registration in secrecy havens
+ICIJ Offshore Leaks + OCCRP Aleph → to find leaked links
+
+Why it works: Shells often obfuscate control through layers. Matching a vendor’s founder to known OFAC aliases or sanctioned intermediaries is a kill shot.
+
+7. Ghost Vendor or Thin Presence Detection
+Objective: Determine if a vendor is real, operational, and capable.
+
+Tool Chain:
+Wayback Machine → to see if the vendor site was live before the contract
+LinkedIn → to check if employees exist
+Glassdoor + Yelp → to verify business activity
+ZoomInfo or Clearbit (if available) → for team structure
+Hunter.io → for actual domain usage or catch-all email setup
+
+Why it works: Real businesses leave a footprint. A shell vendor created solely to receive payments will lack any real presence or staff.
