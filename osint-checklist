@@ -1,0 +1,173 @@
+# OSINT Tools and Resources for Financial Investigations (Expanded)
+
+A categorized, non-exhaustive list of open-source intelligence tools, databases, and platforms used in fraud investigation, vendor screening, and financial crime research.
+
+## Corporate Records & Business Registries
+
+- OpenCorporates
+- Companies House (UK)
+- SEC EDGAR
+- FINRA BrokerCheck
+- IRS Tax Exempt Org Search
+- Secretary of State Business Search
+- Department of State – Corporation & Business Entity Database
+- Bizapedia
+- CorporationWiki
+- Glassdoor
+- Better Business Bureau (BBB)
+- Yelp (for ghost companies)
+
+## Domain, Network & Infrastructure Intelligence
+
+- WHOIS (who.is / ICANN Lookup)
+- SecurityTrails
+- ViewDNS.info
+- DNSdumpster
+- Shodan
+- GreyNoise
+- Censys
+- Robtex
+- MXToolbox
+- BuiltWith
+- Netcraft
+- ZoomEye (China-hosted)
+
+## Legal, Civil, & Criminal Records
+
+- PACER (US Federal Court System)
+- CourtListener
+- RECAP Archive
+- Justia
+- Trellis Law (State Court Dockets)
+- Local/State Judiciary Portals (varies by county/state)
+- Nationwide Inmate Locator (BOP.gov)
+- Vinelink (Victim notification & offender search)
+- OffenderData.com
+
+## Political & Regulatory Disclosures
+
+- OpenSecrets
+- FEC.gov (Campaign Contributions)
+- FARA.gov (Foreign Agent Registrations)
+- USAspending.gov
+- FinCEN Beneficial Ownership Database (2024+)
+- SEC Form ADV (Investment Advisor Disclosures)
+- LobbyView (Harvard)
+- LittleSis.org
+- InfluenceWatch.org
+
+## Sanctions, PEPs & Watchlists
+
+- OFAC Sanctions List (SDN)
+- UN Consolidated Sanctions List
+- EU Sanctions Map
+- Interpol Red Notices
+- FBI Most Wanted
+- CIA World Leaders List
+- HM Treasury Sanctions List (UK)
+- ROSTEKHNADZOR (Russia Sanctions, RU)
+- SECO (Switzerland)
+- AML-CFT.eu Sanctions Aggregator
+- World-Check (commercial, Refinitiv)
+- Factiva (PEP alerts, commercial)
+
+## International & Offshore Entities
+
+- OCCRP Aleph
+- ICIJ Offshore Leaks Database
+- Panama Papers
+- Paradise Papers
+- Global Open Data Index
+- Global Legal Entity Identifier (GLEIF)
+- Orbis (Bureau van Dijk, commercial)
+- BvD Zephyr (M&A database)
+- Swissleaks
+
+## People & Identity Tracing
+
+- LinkedIn
+- Pipl
+- That’sThem
+- Spokeo
+- TruePeopleSearch
+- FastPeopleSearch
+- Radaris
+- WhitePages
+- BeenVerified
+- PeekYou
+- NumLookup (phone # metadata)
+- AnyWho (US)
+- ZoomInfo (commercial contact profiles)
+
+## Property, GIS, and Asset Tracing
+
+- County Assessor GIS Portals (varies by county)
+- Netronline (gateway to US assessor and recorder sites)
+- ACRIS (NYC property database)
+- ParcelQuest (California)
+- Sanborn Maps / Historic Plat Maps
+- LandWatch (for rural/undeclared land assets)
+
+## Document & Metadata Analysis
+
+- InVID (video verification)
+- Metadata2Go
+- ExifTool
+- PDF Examiner
+- OSINT Combine PDF Scanner
+- FOCA (Metadata & document recon)
+
+## Social, Behavioral, & Web Presence
+
+- Google Dorking / Advanced Operators
+- X-Ray Search (LinkedIn, Facebook, etc.)
+- Archive.org (Wayback Machine)
+- CachedView
+- Hunchly (web capture & evidence)
+- Hunter.io (email discovery)
+- MailTester.com
+- HaveIBeenPwned
+- Pastebin (leaked info)
+- GhostProject.fr
+
+## Email, IP, & Credential Checks
+
+- EmailRep.io
+- EmailHippo
+- MXToolbox
+- IPInfo.io
+- AbuseIPDB
+- LeakCheck.io
+- IntelligenceX
+
+## Image & Facial Analysis
+
+- TinEye (reverse image search)
+- Google Lens
+- Yandex Images
+- ExifTool (EXIF metadata)
+- FotoForensics
+- PimEyes (facial recognition, paid)
+- Social Searcher (username/content analysis)
+
+## Automation & Recon Frameworks
+
+- Maltego (graph-based link analysis)
+- SpiderFoot
+- Recon-ng
+- Metagoofil
+- Osmedeus
+- TheHarvester
+- Nmap (network recon, deeper layer)
+
+## General OSINT Aggregators / Toolkits
+
+- OSINT Framework (https://osintframework.com/)
+- Bellingcat's Online Investigation Toolkit
+- IntelTechniques by Michael Bazzell
+- Awesome-OSINT (GitHub curated list)
+- Open Source Intelligence Tools and Resources Handbook (Michael Bazzell)
+
+
+**Maintained by:** autstrat / Sierra Raye  
+**Last Updated:** April 2025  
