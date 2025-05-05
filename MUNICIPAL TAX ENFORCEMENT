@@ -1,0 +1,79 @@
+SKIPTRACING TOOL STACK FOR MUNICIPAL TAX ENFORCEMENT
+
+STEP 1: Confirm Identity & Alias Variants
+Tool	Use
+Pipl / That’sThem	Phone numbers, emails, aliases, addresses, relatives
+Spokeo / TruePeopleSearch	Free identity confirmation & household members
+WhitePages Premium (paid)	Age ranges, roommates, alternate numbers
+Social Searcher	Social handles tied to names/emails
+LexisNexis Accurint (if authorized)	Gold standard for linking identity metadata
+
+Goal: Pin down the person across any name changes, marital aliases, or data obfuscation.
+
+STEP 2: Property Ownership & Residency Verification
+Tool	Use
+County GIS/Assessor Portal	Look up titleholder name, tax lien status, current address
+Netronline	Portal to assessor/recorder sites nationwide
+ParcelQuest (CA)	Advanced parcel lookups + ownership chains
+Zillow or Redfin	Market valuation of undeclared properties
+Google Maps + Street View	Check for signs of occupancy, property condition
+
+Goal: Confirm where they live now or if they’ve transferred property to avoid liens.
+
+STEP 3: Utility & Public Service Clues
+Tool	Use
+Water/Sewer Billing Systems (internal)	Active services often prove residency
+Trash Collection or Permit Records	Name attached to ongoing municipal service
+FOIA to DMV or Vehicle Registration	Tag/address cross-check if legally permissible
+Voter Registration Check	Find current declared residential district
+
+Goal: Prove someone still “lives” locally despite mail bouncing or dodges.
+
+STEP 4: Employment & Income Verification
+Tool	Use
+LinkedIn	Claimed current employer or business
+State Business Registry	Self-employed? Track LLCs, DBAs, or partnerships
+ZoomInfo (if available)	Confirm employment metadata
+Court Records	Look for wage garnishments or employment-related filings
+Job Boards / Gig Profiles	Are they driving Uber? Posting on Fiverr? Shows activity.
+
+Goal: Establish income sources for potential garnishment or repayment scheduling.
+
+STEP 5: Legal Exposure & Lien Opportunities
+Tool	Use
+PACER	Bankruptcy, civil judgments, tax disputes
+CourtListener	Free access to many PACER cases
+State Judiciary Portals	Civil suits, collections, landlord-tenant issues
+County Recorder's Office	Look for mechanic’s liens, prior tax liens
+Court-ordered wage garnishment databases (if available)	See if others have beat you to it
+
+Goal: Determine collectability, seniority, or likelihood of recovery.
+
+STEP 6: Digital Footprint & Location Clues
+Tool	Use
+Facebook / Instagram	Vacation pics, “checked in” locations, family ties
+Wayback Machine	Old web pages tied to personal businesses
+Hunter.io	See if personal domain has been used for email
+WHOIS	Domain tied to a debtor who may claim no assets
+Google Dorking	"Name" + "cell" OR "email" OR "invoice" can yield gold
+
+Goal: Uncover signs of activity, spending, or travel that suggest recoverable assets.
+
+Step 7: Bundle for Collection Action
+
+Document all findings with:
+Source links
+Date of discovery
+Proof of ownership/residency/income
+
+Format in a dossier that can:
+Justify lien placement
+Support garnishment petitions
+Be passed to collection counsel or sheriff
+
+Bonus Tools (If You're a City with Resources)
+
+TLOxp (TransUnion)	Elite skiptracing database, if your agency qualifies
+Clear (Thomson Reuters)	Financial and utility data, layered insights
+IDI Core	Real-time address and identity intelligence
+SmartProcure	Look up if they sell to other governments
